@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+}
+
+/* MAIN  */
+main {
+    margin: auto;
+    max-width: 400px;
+    padding: 2.1em;
+    border-radius: 20px;
+    background-color: hsl(217, 19%, 14%);
+}
+
+.hidden {
+    display: none;
+}
+
+/* PRINCIPAL CONTAINER  */
+#icon {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 50%;
+    max-width: 20px;
+    background-color:  hsl(213, 19%, 18%);
+    margin-bottom: 35px;
+}
+
+.title {
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.description {
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 20px;
+}
+
+#states {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.classification {
+    border: none;
+    border-radius: 50%;
+    padding: 15px 20px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+.classification:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.classification:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+#submit {
+    padding: 13px 0px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/* THANK YOU CONTAINER  */
+
+.thank_you_container .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thank_you_container .description {
+    text-align: center;
+}
+
+.selected {
+    margin: 30px 0px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: hsl(25, 73%, 54%);
+}
+
+
+/* FOOTER */
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
